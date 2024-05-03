@@ -1,10 +1,3 @@
-Finance & Econ 2
--Everyone in general helped in presentation
-Bonnema, Colin - Helped Create ARMA Model
-Gupta, Attulya - Created Data Importation,exploritory analysis, and LSTM model
-Mandell, Jack - Created ARIMA Model to be used and framework for AR and ARMA Models
-Sahai, Jayant - Helped Create AR Model and did a lot of the presentation in terms of math explanations too
-Vondersitt, Brit - Did SVR model along with some others that weren't included in final draft, added confusion matrices and accuracy score
 # ABSTRACT
 ### Introduction
 In the intricate and fast-paced world of finance, stock market prediction using machine learning stands out as a crucial endeavor, blending advanced analytics with economic expertise. This approach is not merely about charting the course of stock prices but delves into a series of concrete, data-driven questions that underpin strategic investment decisions. The key question we seeked to answer was what were the differences between popular prediction models and what model is generally the best at predicting the stock price and whats in MSE for the Finance and Utility sector of the market.
