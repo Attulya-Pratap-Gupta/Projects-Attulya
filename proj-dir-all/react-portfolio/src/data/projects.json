@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Personal Portfolio Project",
+    "imageSrc": "projects/g.png",
+    "description": "Project aimed to deepen understanding about React Hooks and deployment",
+    "skills": ["React", "JavaScript", "HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "CryptoCurrency Trading Backend",
+    "imageSrc": "projects/crypto.png",
+    "description": "C++ project aimed to learn about handling Buy/Sell orders, Bid-Ask Spread and Trades in platforms like Binance",
+    "skills": ["C++"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Formula 1 Data Analysis",
+    "imageSrc": "projects/f1.png",
+    "description": "Processing, Visualizing and Analyzing F1 Data (1950-2023) using Python",
+    "skills": ["Python", "Jupyter", "seaborn", "scipy"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]
