@@ -1,0 +1,140 @@
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.skills {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  transform: perspective(600px) rotateX(0deg) rotateY(0deg);
+  transition: transform 0.6s;
+}
+
+.skillImageContainer.spinning {
+  transform: perspective(600px) rotateY(360deg);
+}
+
+.skillImageContainer img {
+  width: 75px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+.history {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.historyItem img {
+  width: 50px;
+}
+
+.historyItemDetails {
+  font-family: var(--font-roboto);
+  transition: color 0.3s ease;
+}
+
+.historyItemDetails h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.historyItemDetails p {
+  font-size: 16px;
+  font-weight: 150;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 20px;
+  list-style-type: disc;
+  margin-left: 15px;
+  
+}
+
+.historyItemDetails ul li {
+  margin: 6px 0 ;
+}
+
+.historyItem:hover {
+  background-color: rgba(25, 55, 109, 0.8);
+}
+
+.historyItemDetails:hover {
+  color: var(--color-highlight);
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}
