@@ -1,2 +1,5 @@
 *.html linguist-language=HTML
+*.cpp linguist-langugage=C++
+*.hpp linguist-language=C++
+
 
