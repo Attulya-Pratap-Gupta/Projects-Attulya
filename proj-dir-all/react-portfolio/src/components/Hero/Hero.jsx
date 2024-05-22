@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="hero">
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, I am Attulya</h1>
         <p className={styles.description}>
@@ -14,18 +14,16 @@ export const Hero = () => {
           Reach out to know more!
         </p>
         
-        <div>
-        <a href="mailto:guptaattulyapratap@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.buttonContainer}>
+          <a href="mailto:guptaattulyapratap@gmail.com" className={styles.contactBtn}>
+            Contact Me
+          </a>
 
-        <a href="https://drive.google.com/file/d/1mRsHDmDqh8DtFyq_FUO94hDJNg5uGYvL/view?usp=sharing" target="_blank" 
-           rel="noopener noreferrer"className={styles.contactBtn}>
-          Resume
-        </a>
-
+          <a href="https://drive.google.com/file/d/1mRsHDmDqh8DtFyq_FUO94hDJNg5uGYvL/view?usp=sharing" target="_blank" 
+             rel="noopener noreferrer" className={styles.contactBtn}>
+            Resume
+          </a>
         </div>
-
       </div>
       <img
         src={getImageUrl("hero/heroIcon.png")}
