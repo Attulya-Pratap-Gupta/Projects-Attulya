@@ -5,5 +5,5 @@
 *.html linguist-language=HTML
 *.cpp linguist-langugage=C++
 *.hpp linguist-language=C++
-
+*.jsx linguist-language=REACT
 
