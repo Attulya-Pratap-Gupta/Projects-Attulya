@@ -1,3 +1,4 @@
+* linguist-detectable=true
 *.html linguist-language=HTML
 *.cpp linguist-langugage=C++
 *.hpp linguist-language=C++
