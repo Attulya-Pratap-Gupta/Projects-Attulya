@@ -1,6 +1,7 @@
 * linguist-detectable=true
 *.csv linguist-vendored
 *.ipynb linguist-vendored
+*.txt linguist-vendored
 *.html linguist-language=HTML
 *.cpp linguist-langugage=C++
 *.hpp linguist-language=C++
