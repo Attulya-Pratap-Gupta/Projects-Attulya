@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.about,
+.gearhead-mgmt {
+  margin: 0;
+}
+
+.about-gearhead-mgmt {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: inherit;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.5s;
+}
+
+.gearhead-mgmt-is {
+  align-self: stretch;
+  height: 196px;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  color: var(--color-dimgray);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.7s;
+}
+
+.frame-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+
+.youtube1 {
+  flex: 1;
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 0.9s;
+}
+
+.component-31 {
+  width: 162px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: var(--br-61xl);
+  background-color: var(--color-gold);
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font-inter);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards 1.1s;
+}
+
+.component-31:hover {
+  background-color: var(--color-gold-dark);
+  transform: translateY(-2px);
+}
+
+.component-31:active {
+  background-color: var(--color-gold-light);
+  transform: translateY(0);
+}
+
+.component-31 img {
+  height: 24px;
+  width: 24px;
+}
+
+.about-gearhead-mgmt-parent {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 600px;
+  max-width: 100%;
+}
+
+.about-image-placeholder {
+  align-self: stretch;
+  height: 452px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInScale 1s forwards 1.3s;
+}
+
+.about-content,
+.about-image,
+.about-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.about-image {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  flex-direction: column;
+  min-width: 421px;
+}
+
+.about-content,
+.about-us {
+  align-self: stretch;
+}
+
+.about-content {
+  flex-direction: row;
+  gap: var(--gap-45xl);
+}
+
+.about-us {
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-45xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about-gearhead-mgmt-parent {
+    flex: 1;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .about-gearhead-mgmt {
+    font-size: var(--font-size-13xl);
+  }
+  .about-gearhead-mgmt-parent {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about-gearhead-mgmt-parent {
+    gap: var(--gap-5xl);
+  }
+  .about-image {
+    min-width: 100%;
+  }
+  .about-content,
+  .about-image,
+  .about-us {
+    gap: var(--gap-13xl);
+  }
+  .about-us {
+    padding: var(--padding-46xl) var(--padding-13xl) var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about-gearhead-mgmt {
+    font-size: var(--font-size-5xl);
+  }
+  .gearhead-mgmt-is {
+    line-height: 22px;
+  }
+  .gearhead-mgmt-is,
+  .youtube1 {
+    font-size: var(--font-size-base);
+  }
+  .about-content,
+  .about-image,
+  .about-us {
+    gap: var(--gap-base);
+  }
+}

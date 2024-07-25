@@ -1,0 +1,308 @@
+/* Styles for all viewports */
+.image-icon {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  margin: 0 !important;
+  top: 106px;
+  right: -164px;
+  border-radius: var(--br-581xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.testimonial-author-child {
+  width: 500px;
+  height: 900px;
+  position: relative;
+  background-color: var(--color-gold);
+  display: none;
+  max-width: 100%;
+}
+.classic-car-enthusiast,
+.john-doe {
+  width: 154px;
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  z-index: 1;
+}
+.classic-car-enthusiast {
+  width: 219px;
+  font-size: var(--font-size-sm);
+}
+.testimonial-author,
+.testimonial-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonial-author {
+  flex: 1;
+  background-color: var(--color-gold);
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-711xl) var(--padding-xl) var(--padding-87xl)
+    var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.testimonial-content {
+  width: 500px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 500px;
+}
+.quotes-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+.quotes-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.joining-gearhead-mgmt {
+  margin: 0;
+  align-self: stretch;
+  height: 128px;
+  position: relative;
+  line-height: 160%;
+  font-weight: 700;
+  display: inline-block;
+}
+.quotes-icon1 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+.quote-paragraph {
+  gap: var(--gap-13xl);
+}
+.quote-paragraph,
+.quote-paragraph-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.attribution-placeholder {
+  width: 32px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+}
+.line {
+  width: 103px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+}
+.line-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.b,
+.b1 {
+  width: 32px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.b:hover,
+.b1:hover {
+  color: var(--color-gold);
+}
+.frame-container {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xl);
+  color: var(--color-darkgray-100);
+}
+.attribution-content,
+.frame-container,
+.quote-attribution {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.attribution-content {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.quote-attribution {
+  width: 299px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.quote-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.testimonial,
+.testimonial-quote {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonial-quote {
+  width: 600px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-229xl);
+  min-width: 600px;
+  min-height: 650px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+}
+.testimonial {
+  width: 1396px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .testimonial-content,
+  .testimonial-quote {
+    flex: 1;
+  }
+  .testimonial {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: var(--padding-xl);
+  }
+  .testimonial-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .testimonial-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .testimonial-author {
+    padding-top: var(--padding-45xl);
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  .image-icon {
+    position: static;
+    margin: 20px 0;
+  }
+  .testimonial-quote {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .testimonial-content {
+    min-width: 100%;
+  }
+  .quote-paragraph {
+    gap: var(--gap-base);
+  }
+  .quote-paragraph-wrapper {
+    gap: var(--gap-40xl);
+  }
+  .quote-content {
+    gap: var(--gap-13xl);
+  }
+  .testimonial-quote {
+    padding-bottom: var(--padding-142xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .john-doe {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .testimonial-author {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-289xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+  .joining-gearhead-mgmt {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .quote-paragraph-wrapper {
+    gap: var(--gap-10xl);
+  }
+  .quote-content {
+    gap: var(--gap-base);
+  }
+}
+
+/* Add transition for testimonials */
+.testimonial-content,
+.testimonial-quote {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Hide testimonials initially */
+.testimonial-content.hidden,
+.testimonial-quote.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  position: absolute;
+}
+
+/* Display the active testimonial */
+.testimonial-content.active,
+.testimonial-quote.active {
+  opacity: 1;
+  transform: translateY(0);
+  position: relative;
+}
+
+/* Button styles */
+.quote-attribution .b,
+.quote-attribution .b1,
+.quote-attribution .b2 {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.quote-attribution .b:hover,
+.quote-attribution .b1:hover,
+.quote-attribution .b2:hover {
+  color: var(--color-gold);
+}

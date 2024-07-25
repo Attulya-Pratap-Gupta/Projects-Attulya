@@ -1,0 +1,220 @@
+.error-message {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-dimgray);
+}
+
+.success-message {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-dimgray);
+}
+
+
+.pattern-icon2 {
+  height: 1750.9px;
+  width: 1785.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 875px);
+  left: 300px;
+  object-fit: contain;
+}
+.join-now,
+.provide-a-simple {
+  align-self: stretch;
+  position: relative;
+}
+.join-now {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.provide-a-simple {
+  font-size: var(--font-size-xl);
+  line-height: 140%;
+  color: var(--color-dimgray);
+}
+.form-heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact-form1,
+.link-field {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.contact-form1 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 365px;
+}
+.link-field {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: var(--gap-13xl);
+}
+.frame-icon6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.youtube2 {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gold);
+  border-color: var(--color-gold);
+  border-radius: var(--br-61xl);
+  width: 100%;
+  height: 100%;
+  padding: var(--padding-xl) var(--padding-13xl);
+  margin: 0; /* Remove margin if any */
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  font-weight: bold;
+  justify-content: center;
+}
+
+.component-32 {
+  width: 162px;
+  height: auto; /* Maintain the height if already defined */
+  border-radius: var(--br-61xl);
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: column; /* Change to column to fit child flex item */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  
+  color: var(--color-black);
+}
+
+.contact-content,
+.contact-form,
+.form-fields {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.form-fields {
+  width: 650px;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-black);
+  border: 1px solid var(--color-gainsboro-200);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-11xl) var(--padding-12xl);
+  gap: var(--gap-21xl);
+  min-width: 650px;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.contact-content,
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+  box-sizing: border-box;
+}
+
+.contact-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl);
+  z-index: 1;
+}
+
+.contact-form {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 0 0 0 var(--padding-45xl);
+  position: relative;
+  min-height: 972px;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1200px) {
+  .form-fields {
+    flex: 1;
+  }
+  .contact-content {
+    flex-wrap: wrap;
+  }
+  .contact-form {
+    padding-left: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .join-now {
+    font-size: var(--font-size-13xl);
+  }
+  .form-fields {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-form1 {
+    gap: var(--gap-13xl);
+    min-width: 100%;
+  }
+  .link-field {
+    gap: var(--gap-base);
+  }
+  .form-fields {
+    gap: var(--gap-xl);
+  }
+  .contact-content,
+  .contact-form {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  
+  .join-now {
+    font-size: var(--font-size-5xl);
+  }
+  .provide-a-simple {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .contact-form1 {
+    gap: var(--gap-base);
+  }
+  .youtube2 {
+    font-size: var(--font-size-base);
+  }
+  .contact-content,
+  .contact-form {
+    gap: var(--gap-6xl);
+  }
+}

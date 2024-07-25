@@ -1,0 +1,191 @@
+.range-rover-1-icon {
+  height: 26px;
+  width: 149px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-items {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.bmw-logo-1-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-items1 {
+  flex: 0.4;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-50xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.group-icon1,
+.vector-icon1 {
+  position: relative;
+  min-height: 18px;
+}
+.group-icon1 {
+  height: 18.2px;
+  width: 23px;
+}
+.vector-icon1 {
+  align-self: stretch;
+  width: 108.4px;
+  max-height: 100%;
+}
+.logo-items2 {
+  flex: 0.9333;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-46xl-9) var(--padding-10xl) var(--padding-46xl-8);
+  box-sizing: border-box;
+  gap: var(--gap-4xs-6);
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.mercedes-amg-logo-1-icon {
+  height: 14.2px;
+  width: 140px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-items3 {
+  flex: 0.9333;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-48xl-9) var(--padding-10xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.maserati-5-1-icon {
+  height: 60px;
+  width: 136.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-items4 {
+  flex: 0.92;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.subaru-12-1-icon {
+  height: 40px;
+  width: 106.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logo-items5 {
+  flex: 0.72;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-26xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.audi-1-1-icon {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.car-logos,
+.logo-items-parent,
+.logo-items6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-items6 {
+  flex: 0.5333;
+  border-radius: var(--br-5xl);
+  padding: var(--padding-16xl) var(--padding-40xl);
+  box-sizing: border-box;
+  min-width: 194px;
+  max-width: 198px;
+  animation: scroll 8s linear infinite;
+}
+.car-logos,
+.logo-items-parent {
+  max-width: 100%;
+}
+.logo-items-parent {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-black);
+  overflow: hidden;
+  row-gap: 20px;
+}
+.car-logos {
+  align-self: stretch;
+  padding: 0 var(--padding-8xl) var(--padding-45xl);
+  box-sizing: border-box;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logo-items-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo-items1,
+  .logo-items2,
+  .logo-items3,
+  .logo-items4,
+  .logo-items5,
+  .logo-items6 {
+    flex: 1;
+  }
+}
